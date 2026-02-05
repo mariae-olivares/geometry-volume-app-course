@@ -27,7 +27,7 @@ Este proyecto consiste en una aplicación en Python para calcular el volumen de 
 _git clone <link_del_repositorio>_  
   Para obtener el link, entra a tu repositorio en GitHub y cópialo desde la sección Code.    
 2. Instala las dependencias del proyecto:  
-_pip install -r requirements.txt_  
+_pip install -r requirements.txt_ ó _python -m pip install -r requirements.txt_  
 3. Ejecuta el archivo principal:  
 _python geometry/main.py_  
 4. Sigue las instrucciones del menú en la terminal para calcular los volúmenes de las diferentes figuras geométricas o para salir del programa.

@@ -1,5 +1,5 @@
 # geometry-volume-app-course
-Calculadora de volúmenes de figuras geométricas
+Calculadora de volúmenes de figuras geométricas. [Repositorio](https://github.com/mariae-olivares/geometry-volume-app-course)
 
 ## Descripción del proyecto
 Este proyecto consiste en una aplicación en Python para calcular el volumen de diversas figuras geométricas. En específico, se implementa el cálculo del volumen para: cajas, conos, cilindros y esferas. Además de la documentación para los cálculos ya mencionados, el proyecto cuenta con pruebas para cada figura geométrica utilizando pytest.

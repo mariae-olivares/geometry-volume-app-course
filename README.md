@@ -5,29 +5,30 @@ Calculadora de volúmenes de figuras geométricas
 Este proyecto consiste en una aplicación en Python para calcular el volumen de diversas figuras geométricas. En específico, se implementa el cálculo del volumen para: cajas, conos, cilindros y esferas. Además de la documentación para los cálculos ya mencionados, el proyecto cuenta con pruebas para cada figura geométrica utilizando pytest.
 
 ## Estructura del Proyecto
-La estructura principal del proyecto se basa en dos carpetas principales, un archivo main.py, un requirements.txt y el README.md.
-
-La primera carpeta, geometry, contiene la definición de cada una de las funciones para el cálculo de los volúmenes. La segunda carpeta, tests, contiene los archivos de prueba de cada una de las figuras. El archivo main.py es el que se debe ejecutar para poder acceder a la calculadora de volúmenes, mientras que el requirements.txt incluye las dependencias necesarias para poder correr el programa.
-
 A continuación se muestra, a forma de diagrama, la estructura del proyecto:
 
 ### geometry-volume-app-course/  
-#### |-- geometry/  
+#### |-- geometry/
+Contiene la definición de cada una de las funciones para el cálculo de los volúmenes  
 | |-- init.py  
 | |-- box.py # Cálculo de volumen de caja  
 | |-- cone.py # Cálculo de volumen de cono  
 | |-- cylinder.py # Cálculo de volumen de cilindro  
-| |-- sphere.py # Cálculo de volumen de esfera  
-#### |-- main.py  
+| |-- sphere.py # Cálculo de volumen de esfera 
 #### |-- tests/   
+Contiene los archivos de prueba de cada una de las figuras  
 | |-- init.py  
 | |-- test_box.py # Pruebas para box.py  
 | |-- test_cone.py # Pruebas para cone.py  
 | |-- test_cylinder.py # Pruebas para cylinder.py  
-| |-- test_sphere.py # Pruebas para sphere.py  
-#### |-- requirements.txt   
-#### |-- README.md  
+| |-- test_sphere.py # Pruebas para sphere.py 
 #### |-- .gitignore
+#### |-- README.md  
+#### |-- main.py
+Se debe ejecutar para poder acceder a la calculadora de volúmenes  
+#### |-- requirements.txt   
+i
+Incluye las dependencias necesarias para poder correr el programa  
 
 ## Cómo ejecutar main.py
 1. Después de realizar el fork a tu cuenta de GitHub, clona el repositorio en tu computadora:  
@@ -68,15 +69,14 @@ Catch you later, mate!
 2. Instala las dependencias del proyecto:  
 _pip install -r requirements.txt_ ó _python -m pip install -r requirements.txt_ 
 3. Realiza las pruebas:
-4. 
-Puedes ejecutar las pruebas de manera individual con los siguientes comandos:  
+- Puedes ejecutar las pruebas de manera individual con los siguientes comandos:  
 
 _pytest tests/test_box.py_  -> Caja  
 _pytest tests/test_cone.py_  -> Cono  
 _pytest tests/test_cylinder.py_  -> Cilindro  
 _pytest tests/test_sphere.py_  -> Esfera
 
-Ó, puedes ejecutar todas las pruebas con el siguiente comando:
+- Ó, puedes ejecutar todas las pruebas con el siguiente comando:
 _pytest tests_
 
 ------------------------------------------------------------------------------------------------------------------------------------------------

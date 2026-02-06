@@ -14,6 +14,12 @@ def test_volume_cone_negative_dimensions():
     assert volume_cone(3.0, -3.0) == -9 * math.pi
     assert volume_cone(-3.0, -3.0) == -9 * math.pi
 
+def test_volume_cone_zero_dimension():
+    """Document current behaviour when a zero dimension is used."""
+    assert volume_cone(0.0, 3.0) == 0.0
+    assert volume_cone(3.0, 0.0) == 0.0
+    assert volume_cone(0.0, 0.0) == 0.0
+
 def test_volume_cone_float_tolerance():
     """Test volume computation using approximate comparison."""
     radius, height = 1.1, 2.2

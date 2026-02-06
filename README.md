@@ -27,7 +27,6 @@ Contiene los archivos de prueba de cada una de las figuras
 #### |-- main.py
 Se debe ejecutar para poder acceder a la calculadora de volúmenes  
 #### |-- requirements.txt   
-i
 Incluye las dependencias necesarias para poder correr el programa  
 
 ## Cómo ejecutar main.py

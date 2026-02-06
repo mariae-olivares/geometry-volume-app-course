@@ -11,7 +11,7 @@ def test_volume_sphere_valid_inputs():
 # La función incluye su propia validación para radios negativos
 
 def test_volume_sphere_zero_dimension():
-    """Document current behaviour when zero dimension is used."""
+    """Document current behaviour when a zero dimension is used."""
     assert volume_sphere(0.0) == 0.0
 
 def test_volume_sphere_float_tolerance():

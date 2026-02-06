@@ -14,6 +14,12 @@ def test_volume_cylinder_negative_dimension():
     assert volume_cylinder(3.0, -5.0) == -45 * math.pi
     assert volume_cylinder(-3.0, -5.0) == -45 * math.pi
 
+def test_volume_cylinder_zero_dimension():
+    """Document current behaviour when a zero dimension is used."""
+    assert volume_cylinder(0.0, 5.0) == 0.0
+    assert volume_cylinder(3.0, 0.0) == 0.0
+    assert volume_cylinder(0.0, 0.0) == 0.0
+
 def test_volume_cylinder_float_tolerance():
     """Test volume computation using approximate comparison."""
     radius, height = 1.1, 2.2
